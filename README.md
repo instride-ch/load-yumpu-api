@@ -1,6 +1,6 @@
 ![Load Yumpu API](docs/images/github_banner.png "Load Yumpu API")
 
-[![npm Version](http://img.shields.io/npm/v/load-yumpu-api.svg?style=for-the-badge)](https://www.npmjs.com/package/load-yumpu-api) [![Build Status](https://img.shields.io/travis/w-vision/load-yumpu-api.svg?branch=master&style=for-the-badge)](https://travis-ci.org/w-vision/load-yumpu-api)
+[![npm Version](http://img.shields.io/npm/v/@w-vision/load-yumpu-api.svg?style=for-the-badge)](https://www.npmjs.com/package/@w-vision/load-yumpu-api) [![Build Status](https://img.shields.io/travis/w-vision/load-yumpu-api.svg?branch=master&style=for-the-badge)](https://travis-ci.org/w-vision/load-yumpu-api)
 
 > A thin, [Promise](https://developers.google.com/web/fundamentals/primers/promises)-returning helper for loading the [Yumpu JavaScript API](https://developers.yumpu.com/introductionJS.html).
 
@@ -9,7 +9,7 @@
 
 ## Usage
 
-> [**Editable demo (CodePen)**](https://codepen.io/lyuanqing/pen/YeYBrN)
+> [**Editable demo (CodePen)**](https://codepen.io/aarongerig/pen/PxYRRp)
 
 ```js
 const loadYumpuApi = require('load-yumpu-api');
@@ -27,8 +27,8 @@ loadYumpuApi().then(function (Yumpu) {
 [Without this module](https://developers.yumpu.com/quickSetup.html), you would need to add a script tag to your page. For example:
 
 ```html
-<script type="text/javascript" src="https://players.yumpu.com/hub.js"></script>
-<script>
+<script src="https://players.yumpu.com/hub.js"></script>
+<script type="text/javascript">
   // `window.Yumpu` available here
 </script>
 ```
