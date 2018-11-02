@@ -9,7 +9,7 @@
 
 ## Usage
 
-> [**Editable demo (CodePen)**](https://codepen.io/aarongerig/pen/PxYRRp)
+[![Edit k3ko7w43zv](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/k3ko7w43zv)
 
 ```js
 const loadYumpuApi = require('@w-vision/load-yumpu-api');
