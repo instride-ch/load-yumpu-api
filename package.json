@@ -1,6 +1,6 @@
 {
   "name": "@w-vision/load-yumpu-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A thin, Promise-returning helper for loading the Yumpu API.",
   "author": "w-vision AG <support@w-vision.ch>",
   "license": "MIT",

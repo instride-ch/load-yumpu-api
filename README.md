@@ -12,7 +12,7 @@
 > [**Editable demo (CodePen)**](https://codepen.io/aarongerig/pen/PxYRRp)
 
 ```js
-const loadYumpuApi = require('load-yumpu-api');
+const loadYumpuApi = require('@w-vision/load-yumpu-api');
 
 loadYumpuApi().then(function (Yumpu) {
   const yumpu = new Yumpu();
@@ -38,7 +38,7 @@ This module abstracts this ceremony away, and fits better with modern bundlers l
 ## API
 
 ```js
-const loadYumpuApi = require('load-yumpu-api');
+const loadYumpuApi = require('@w-vision/load-yumpu-api');
 ```
 
 ### loadYumpuApi()
@@ -55,13 +55,13 @@ See [Usage](#usage).
 Install via [yarn](https://yarnpkg.com):
 
 ```sh
-$ yarn add load-yumpu-api
+$ yarn add @w-vision/load-yumpu-api
 ```
 
 Or [npm](https://npmjs.com):
 
 ```sh
-$ npm install --save load-yumpu-api
+$ npm install --save @w-vision/load-yumpu-api
 ```
 
 ## License
